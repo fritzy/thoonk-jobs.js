@@ -1,0 +1,41 @@
+{
+    "name": "thoonk-jobs.js",
+    "version": "1.0.0",
+    "description": "Thoonk is a persistent (and fast!) system for push feeds, queues, and jobs which leverages Redis. Thoonk follows a contract (schema + behavior) to allow multiple languages and custom implementations to interact reliably.",
+    "keywords": [
+        "redis",
+        "job",
+        "feed",
+        "queue",
+        "publish",
+        "subscribe",
+        "push",
+        "live",
+        "cluster"
+    ],
+    "homepage": "thoonk.com",
+    "author": {
+        "name": "Nathan Fritz",
+        "email": "nathan@andyet.net",
+        "url": "http://andyet.net/team/nathan"
+    },
+    "contributors": [],
+    "main": "./thoonk.js",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/fritzy/thoonk-jobs.git"
+    },
+    "dependencies": {
+        "thoonk": "1.0.0",
+        "node-uuid": "1.4.0"
+    },
+    "devDependencies": {
+        "async": "",
+        "nodeunit": "0.8.1",
+        "precommit-hook": "0.3.5",
+        "getconfig": "0.0.5"
+    },
+    "scripts": {
+        "test": "NODE_ENV=test node test.js"
+    }
+}
