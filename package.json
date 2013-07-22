@@ -23,7 +23,7 @@
     "main": "./thoonk.js",
     "repository": {
         "type": "git",
-        "url": "http://github.com/fritzy/thoonk-jobs.git"
+        "url": "https://github.com/fritzy/thoonk-jobs.js.git"
     },
     "dependencies": {
         "thoonk": "1.0.0",
